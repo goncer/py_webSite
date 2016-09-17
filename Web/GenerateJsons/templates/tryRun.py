@@ -12,7 +12,7 @@ typeObject = jData["apis"][0]["operations"][0]["parameters"][1]["dataType"]
 models = jData["models"]
 for model in models:
     for property in model["properties"]:
-        print propertie
+        print property
     print model
 props = models[0]["properties"]
 a = props[1]
